@@ -2,11 +2,12 @@ package com.moisessilva10.cursomc.services;
 
 import java.util.Optional;
 
-import org.hibernate.ObjectNotFoundException;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.moisessilva10.cursomc.domain.Categoria;
+import com.moisessilva10.cursomc.exceptions.ObjectNotFoundException;
 import com.moisessilva10.cursomc.repositories.CategoriaRepository;
 
 @Service
